@@ -1,13 +1,15 @@
 # Hotels-Reservations-Research-and-Analysis
 
-About the data - 187848 rows of hotel reservations in different dates,
-                 9 columns - 'Snapshot ID','Snapshot Date','Checkin Date','Days','Original Price','Discount Price','Discount Code','Available Rooms','Hotel Name','Hotel Stars'.
-                 Dates are from 2015/7 to 2016/3.
-                 All data collected for DataScience Course at Colman.
+About the data:
+- 187,848 rows of hotel reservations in different dates.
+- 9 columns - 'Snapshot ID','Snapshot Date','Checkin Date','Days','Original Price','Discount Price','Discount Code','Available Rooms','Hotel Name','Hotel Stars'.
+- Dates are from 2015/7 to 2016/3.
+- All data collected for DataScience Course at Colman.
 
-Classification Research - Our goal was to learn for a given 'Snapshot Date','Checkin Date','Hotel Name','Day Diff','WeekDay' properties, what Discount Code will satisfy the highest discount price for a reservation (with generalize matter).
-Clustering Research - Our goal was to check for a similar pricing policies for the varied hotels in our data.
-Distributed part - We wanted to implement the Clustering part in a Distributed manner over Hadoop.
+Our goals:
+- Classification Research - Our goal was to learn for a given 'Snapshot Date','Checkin Date','Hotel Name','Day Diff','WeekDay' properties, what Discount Code will satisfy the highest discount price for a reservation (with generalize matter).
+- Clustering Research - Our goal was to check for a similar pricing policies for the varied hotels in our data.
+- Distributed part - We wanted to implement the Clustering part in a Distributed manner over Hadoop.
 
 
 ## Key Features
@@ -42,20 +44,13 @@ Our Project involves the following libraries and addons:
 
 ## Previews
 
+- Table Head :
 ![table_head](https://user-images.githubusercontent.com/33058843/54922944-dbab8480-4f11-11e9-8df7-ea35958b4c18.png)
 
-![discount_code_by_day](https://user-images.githubusercontent.com/33058843/54922974-efef8180-4f11-11e9-8803-2bba2492d73e.png)
-
-![finding_regression](https://user-images.githubusercontent.com/33058843/54922979-f3830880-4f11-11e9-81ba-24a790056a38.png)
-
+- Data Pair-plot :
 ![pair_plot](https://user-images.githubusercontent.com/33058843/54922988-f847bc80-4f11-11e9-8750-7626d9d77f5c.png)
 
-![cleaning_outliers](https://user-images.githubusercontent.com/33058843/54923010-0269bb00-4f12-11e9-9945-9ed211c09221.png)
-
-![tree_img](https://user-images.githubusercontent.com/33058843/54923016-0564ab80-4f12-11e9-9b4c-33ce90cb90e9.png)
-
-![heatmap](https://user-images.githubusercontent.com/33058843/54923033-0c8bb980-4f12-11e9-813c-3c4c91b7a378.png)
-
+- Dendogram :
 ![dendogram](https://user-images.githubusercontent.com/33058843/54923021-07c70580-4f12-11e9-9dfc-f31cbafd2d9d.png)
 
 
